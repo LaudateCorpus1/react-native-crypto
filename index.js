@@ -1,5 +1,5 @@
 'use strict'
-import * as RNBlocksoftRandom from ‘react-native-blocksoft-random’
+import * as RNBlocksoftRandom from 'react-native-blocksoft-random'
 
 exports.randomBytes = exports.rng = exports.pseudoRandomBytes = exports.prng = RNBlocksoftRandom.getRandomBytes
 console.log(RNBlocksoftRandom)
