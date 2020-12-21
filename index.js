@@ -2,7 +2,6 @@
 import * as RNBlocksoftRandom from 'react-native-blocksoft-random'
 
 exports.randomBytes = exports.rng = exports.pseudoRandomBytes = exports.prng = RNBlocksoftRandom.getRandomBytes
-console.log(RNBlocksoftRandom)
 
 // implement window.getRandomValues(), for packages that rely on it
 if (typeof window === 'object') {
